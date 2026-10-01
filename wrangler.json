@@ -1,0 +1,14 @@
+{
+  "name": "quickdrop",
+  "main": "worker.js",
+  "compatibility_date": "2025-02-01",
+  "pages_build_output_dir": "dist",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "site": {
+    "bucket": "./dist"
+  }
+}

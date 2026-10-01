@@ -1,0 +1,138 @@
+import React, { useState } from 'react';
+import { useRouter, getAssetUrl } from '../../lib/router';
+import { useAuth } from '../../context/AuthContext';
+import { Lock, Mail, ArrowRight, AlertCircle, Loader2, Sparkles } from 'lucide-react';
+
+export function LoginPage() {
+  const { navigate } = useRouter();
+  const { login, user, isLoading: isAuthLoading } = useAuth();
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  React.useEffect(() => {
+    if (!isAuthLoading && user) {
+      navigate('/dashboard');
+    }
+  }, [isAuthLoading, user, navigate]);
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setIsLoading(true);
+
+    try {
+      await login(email, password);
+      navigate('/dashboard');
+    } catch (err: any) {
+      setError(err.message || 'Login failed. Please verify credentials.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-[#050505] text-white flex flex-col justify-center py-12 sm:px-6 lg:px-8 relative overflow-hidden select-none">
+      {/* Subtle Ambient Glow */}
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#F52F3A]/10 rounded-full blur-[140px] pointer-events-none" />
+
+      <div className="sm:mx-auto sm:w-full sm:max-w-md text-center z-10 space-y-4">
+        {/* Brand Logo */}
+        <div
+          onClick={() => navigate('/')}
+          className="inline-flex items-center gap-3 px-4 py-2 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md cursor-pointer hover:bg-white/10 transition-all mb-2"
+        >
+          <div className="w-8 h-8 rounded-xl bg-white text-zinc-950 font-black flex items-center justify-center text-xs tracking-tight shadow-sm">
+            AH
+          </div>
+          <span className="text-sm font-extrabold tracking-tight text-white">
+            Adam Hussein
+          </span>
+        </div>
+
+        <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+          Client Dashboard Sign In
+        </h2>
+        <p className="text-xs text-zinc-400 max-w-sm mx-auto">
+          Manage your portfolio content, case studies, skills, services, and incoming inquiries.
+        </p>
+      </div>
+
+      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md px-4 sm:px-0 z-10">
+        <div className="bg-[#111111] border border-white/10 py-8 px-6 sm:px-10 rounded-3xl shadow-2xl space-y-6">
+          {error && (
+            <div className="flex items-center gap-2 p-3.5 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
+              <AlertCircle className="w-4 h-4 flex-shrink-0" />
+              <span>{error}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleLogin} className="space-y-5 text-left">
+            <div className="space-y-1.5">
+              <label className="text-xs font-semibold text-zinc-300">
+                Username or Email
+              </label>
+              <div className="relative">
+                <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
+                <input
+                  type="text"
+                  required
+                  placeholder="username or email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-[#F52F3A]/30 focus:border-[#F52F3A] transition-all"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-1.5">
+              <div className="flex items-center justify-between">
+                <label className="text-xs font-semibold text-zinc-300">
+                  Password
+                </label>
+              </div>
+              <div className="relative">
+                <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
+                <input
+                  type="password"
+                  required
+                  placeholder="••••••••"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-[#F52F3A]/30 focus:border-[#F52F3A] transition-all"
+                />
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="w-full py-3.5 rounded-xl bg-[#F52F3A] hover:bg-[#d9232d] disabled:opacity-50 text-white text-xs sm:text-sm font-semibold tracking-wide shadow-lg shadow-[#F52F3A]/25 transition-all flex items-center justify-center gap-2 active:scale-95 mt-2"
+            >
+              {isLoading ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span>Authenticating...</span>
+                </>
+              ) : (
+                <>
+                  <span>Sign Into Dashboard</span>
+                  <ArrowRight className="w-4 h-4" />
+                </>
+              )}
+            </button>
+          </form>
+
+          {/* Secure Portal Footnote */}
+          <div className="pt-4 border-t border-white/10 text-center">
+            <p className="text-[11px] text-zinc-500 leading-relaxed">
+              Restricted portal. Only verified clients and platform administrators with issued credentials can access this system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

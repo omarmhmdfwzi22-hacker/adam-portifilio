@@ -1,0 +1,2285 @@
+{
+  "platform_settings": {
+    "id": "e6ccc19d-d58e-4001-b481-41b5a690a0bc",
+    "platform_name": "PORTFOLIO PLATFORM",
+    "logo_url": "",
+    "primary_color": "#10B981",
+    "support_email": "adamhussein0215@gmail.com",
+    "maintenance_mode": false,
+    "created_at": "2026-09-27T17:44:54.884Z",
+    "updated_at": "2026-09-28T14:05:10.815Z"
+  },
+  "clients": [
+    {
+      "id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "name": "Adam Hussein",
+      "email": "adamhussein0215@gmail.com",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "51497e33-ed72-4249-a654-d6440df73332",
+      "name": "Test Creative Studio",
+      "email": "studio-1790604244124@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:04:04.125Z",
+      "updated_at": "2026-09-28T14:04:04.130Z"
+    },
+    {
+      "id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "name": "Test Creative Studio",
+      "email": "studio-1790604322888@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:05:22.889Z",
+      "updated_at": "2026-09-28T14:05:22.892Z"
+    },
+    {
+      "id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "name": "Test Creative Studio",
+      "email": "studio-1790604346410@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:05:46.410Z",
+      "updated_at": "2026-09-28T14:05:46.414Z"
+    },
+    {
+      "id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "name": "Test Creative Studio",
+      "email": "studio-1790604378881@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:06:18.881Z",
+      "updated_at": "2026-09-28T14:06:18.885Z"
+    },
+    {
+      "id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "name": "Test Creative Studio",
+      "email": "studio-1790608759169@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:19:19.169Z",
+      "updated_at": "2026-09-28T15:19:19.175Z"
+    },
+    {
+      "id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "name": "Test Creative Studio",
+      "email": "studio-1790609075221@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:24:35.221Z",
+      "updated_at": "2026-09-28T15:24:35.225Z"
+    },
+    {
+      "id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "name": "Test Creative Studio",
+      "email": "studio-1790609167124@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:26:07.124Z",
+      "updated_at": "2026-09-28T15:26:07.128Z"
+    },
+    {
+      "id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "name": "Test Creative Studio",
+      "email": "studio-1790612069111@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:14:29.111Z",
+      "updated_at": "2026-09-28T16:14:29.117Z"
+    },
+    {
+      "id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "name": "Test Creative Studio",
+      "email": "studio-1790612146673@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:15:46.674Z",
+      "updated_at": "2026-09-28T16:15:46.678Z"
+    },
+    {
+      "id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "name": "Test Creative Studio",
+      "email": "studio-1790612892744@fawzi.dev",
+      "status": "ACTIVE",
+      "onboarding_token": null,
+      "onboarding_completed": true,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:28:12.744Z",
+      "updated_at": "2026-09-28T16:28:12.750Z"
+    }
+  ],
+  "portfolios": [
+    {
+      "id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "client_id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "slug": "adam-hussein",
+      "name": "Adam Hussein Portfolio",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "slug": "test-studio-1790604244124",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:04:04.125Z",
+      "updated_at": "2026-09-28T14:04:04.137Z"
+    },
+    {
+      "id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "slug": "test-studio-1790604322888",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:05:22.889Z",
+      "updated_at": "2026-09-28T14:05:22.895Z"
+    },
+    {
+      "id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "slug": "test-studio-1790604346410",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:05:46.410Z",
+      "updated_at": "2026-09-28T14:05:46.417Z"
+    },
+    {
+      "id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "slug": "test-studio-1790604378881",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T14:06:18.881Z",
+      "updated_at": "2026-09-28T14:06:18.889Z"
+    },
+    {
+      "id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "slug": "test-studio-1790608759169",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:19:19.169Z",
+      "updated_at": "2026-09-28T15:19:19.180Z"
+    },
+    {
+      "id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "slug": "test-studio-1790609075221",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:24:35.221Z",
+      "updated_at": "2026-09-28T15:24:35.230Z"
+    },
+    {
+      "id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "slug": "test-studio-1790609167124",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T15:26:07.124Z",
+      "updated_at": "2026-09-28T15:26:07.132Z"
+    },
+    {
+      "id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "slug": "test-studio-1790612069111",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:14:29.111Z",
+      "updated_at": "2026-09-28T16:14:29.120Z"
+    },
+    {
+      "id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "slug": "test-studio-1790612146673",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:15:46.674Z",
+      "updated_at": "2026-09-28T16:15:46.681Z"
+    },
+    {
+      "id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "slug": "test-studio-1790612892744",
+      "name": "Test Creative Studio Showcase",
+      "published": true,
+      "status": "PUBLISHED",
+      "custom_domain": null,
+      "deleted_at": null,
+      "created_at": "2026-09-28T16:28:12.744Z",
+      "updated_at": "2026-09-28T16:28:12.754Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "18de1437-0912-4d35-ad33-4be2a46da950",
+      "client_id": null,
+      "email": "admin@adam.dev",
+      "role": "SUPER_ADMIN",
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "88c7c572-0539-4121-a2ce-a8318e54909a",
+      "client_id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "8f2b9336-832c-4124-9160-02dba4bee78f",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T14:04:04.130Z",
+      "updated_at": "2026-09-28T14:04:04.130Z"
+    },
+    {
+      "id": "317b2758-3341-45e3-ab91-165caed5a629",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T14:05:22.892Z",
+      "updated_at": "2026-09-28T14:05:22.892Z"
+    },
+    {
+      "id": "560699b2-399e-43e0-b15e-b6d4078a958b",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T14:05:46.414Z",
+      "updated_at": "2026-09-28T14:05:46.414Z"
+    },
+    {
+      "id": "ea81e921-4c55-469d-9e52-ebc21aaeb0eb",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T14:06:18.885Z",
+      "updated_at": "2026-09-28T14:06:18.885Z"
+    },
+    {
+      "id": "35af54a8-201f-4363-9ec9-d167adaaabe2",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T15:19:19.175Z",
+      "updated_at": "2026-09-28T15:19:19.175Z"
+    },
+    {
+      "id": "0f31b4de-87cd-46f2-9218-0789cc800830",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T15:24:35.225Z",
+      "updated_at": "2026-09-28T15:24:35.225Z"
+    },
+    {
+      "id": "b7099d62-f03a-4876-9b73-73411847d0b4",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "email": "adamhussein0215@gmail.com",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T15:26:07.128Z",
+      "updated_at": "2026-09-28T15:26:07.128Z"
+    },
+    {
+      "id": "58fe9de3-64a5-4388-9f81-876f4cdbb739",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "email": "studio-1790612069111@fawzi.dev",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T16:14:29.117Z",
+      "updated_at": "2026-09-28T16:14:29.117Z"
+    },
+    {
+      "id": "a1f3467a-77cb-4285-ba3f-1927e0edb38d",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "email": "studio-1790612146673@fawzi.dev",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T16:15:46.678Z",
+      "updated_at": "2026-09-28T16:15:46.678Z"
+    },
+    {
+      "id": "c19b14ec-b8c2-42e7-8764-85d605f8d141",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "email": "studio-1790612892744@fawzi.dev",
+      "role": "CLIENT",
+      "created_at": "2026-09-28T16:28:12.750Z",
+      "updated_at": "2026-09-28T16:28:12.750Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "14fd7e93-dec8-4f24-9cd3-d5d8d9cf3524",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Web Applications",
+      "slug": "web-applications",
+      "description": "High-performance modern web apps and scalable SaaS frontends.",
+      "sort_order": 1,
+      "visible": true,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "f9877bc3-67dd-4fd7-8ece-4ee3aecd7fd8",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Creative Engineering",
+      "slug": "creative-engineering",
+      "description": "Interactive 3D visuals, micro-interactions, and glassmorphic designs.",
+      "sort_order": 2,
+      "visible": true,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "47423bca-5fbe-4355-a7f7-c6ea98ed2c7d",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "UI/UX & Design Systems",
+      "slug": "ui-ux-design-systems",
+      "description": "Design token architecture, accessible components, and editorial styling.",
+      "sort_order": 3,
+      "visible": true,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "4ce4438d-f54e-4686-81b3-35eee8e276a7",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Mobile Experiences",
+      "slug": "mobile-experiences",
+      "description": "Progressive mobile-first web applications and touch-optimized interfaces.",
+      "sort_order": 4,
+      "visible": true,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "53bd5c7a-d542-41b5-a7f8-5d3d0fc5f5ba",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "category_id": "f9877bc3-67dd-4fd7-8ece-4ee3aecd7fd8",
+      "title": "Creative Studio Platform",
+      "slug": "creative-studio-platform",
+      "short_description": "Next-generation creative agency platform with real-time glassmorphism and modern UI accents.",
+      "full_description": "An expansive creative showcase combining subtle depth, tactile micro-interactions, and high-performance WebGL glow effects designed for modern design agencies.",
+      "client": "Creative Studio Labs",
+      "date": "2026",
+      "technologies": [
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "Motion",
+        "Vite"
+      ],
+      "tags": [
+        "Featured",
+        "Glassmorphism",
+        "Design System"
+      ],
+      "featured": true,
+      "published": true,
+      "hero_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80",
+      "project_url": "https://github.com/omarmhmdfwzi22-hacker/portfolio",
+      "github_url": "https://github.com/omarmhmdfwzi22-hacker/portfolio",
+      "challenge": "Constructing a design system that feels futuristic and tactile without compromising on Core Web Vitals or accessibility.",
+      "solution": "Built a 90/10 minimal-to-glass ratio, offloading blur filters to GPU compositor layers and utilizing CSS color-scheme adaptors.",
+      "results": "Achieved 98+ Lighthouse scores, sub-50ms interaction response, and unified design token parity across themes.",
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "2674ca93-8b5b-410a-8556-e92197878c06",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "category_id": "14fd7e93-dec8-4f24-9cd3-d5d8d9cf3524",
+      "title": "Linear-Inspired SaaS Control Hub",
+      "slug": "linear-inspired-saas-control-hub",
+      "short_description": "Minimalist command center with instant keyboard-first workflows and real-time synchronization.",
+      "full_description": "A dark-mode first enterprise management dashboard engineered for lightning-speed task triaging, inline editing, and multi-tenant data visualization.",
+      "client": "Fintech Core Inc.",
+      "date": "2025",
+      "technologies": [
+        "Next.js",
+        "PostgreSQL",
+        "TypeScript",
+        "Tailwind CSS",
+        "WebSockets"
+      ],
+      "tags": [
+        "SaaS",
+        "Dark Mode",
+        "Productivity"
+      ],
+      "featured": true,
+      "published": true,
+      "hero_image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+      "project_url": "https://example.com/saas-hub",
+      "github_url": "https://github.com/omar-3moor/saas-control",
+      "challenge": "Handling dense data tables with complex nested relational data while maintaining fluid 60fps scrolling.",
+      "solution": "Implemented virtualized list rendering, debounced server updates, and optimistic client-side mutation caches.",
+      "results": "Supported 10,000+ simultaneous live rows with zero frame drops.",
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "8b4c6d18-1020-49db-9c49-612feac43433",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "category_id": "47423bca-5fbe-4355-a7f7-c6ea98ed2c7d",
+      "title": "Aether Editorial Portfolio Architecture",
+      "slug": "aether-editorial-portfolio-architecture",
+      "short_description": "Editorial-grade typography system and masonry showcase tailored for digital creators.",
+      "full_description": "Explores high-end typography hierarchy, large display typefaces, and asymmetrical masonry layouts designed for creative directors and senior developers.",
+      "client": "Studio Aether",
+      "date": "2025",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Figma"
+      ],
+      "tags": [
+        "Editorial",
+        "Typography",
+        "Creative"
+      ],
+      "featured": false,
+      "published": true,
+      "hero_image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80",
+      "project_url": "https://example.com/aether",
+      "github_url": "https://github.com/omar-3moor/aether",
+      "challenge": "Bridging print typography sensibilities with fluid responsive web viewports across mobile and desktop.",
+      "solution": "Created fluid clamp() typography calculations and balanced grid systems that adjust dynamically.",
+      "results": "Awarded site of the day honors and benchmarked by hundreds of creative developers.",
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "daac1f63-8126-4425-bc3d-d7b551364a56",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "category_id": "4ce4438d-f54e-4686-81b3-35eee8e276a7",
+      "title": "Nova Touch-First Mobile Workspace",
+      "slug": "nova-touch-first-mobile-workspace",
+      "short_description": "[Draft Case Study] Upcoming gesture-driven mobile workspace for distributed teams.",
+      "full_description": "An innovative draft project testing native-like bottom sheets, haptic feedback hooks, and offline-first client storage.",
+      "client": "Internal R&D",
+      "date": "2026",
+      "technologies": [
+        "React Native Web",
+        "PWA",
+        "IndexedDB",
+        "Tailwind CSS"
+      ],
+      "tags": [
+        "Draft",
+        "Mobile",
+        "Experimental"
+      ],
+      "featured": false,
+      "published": false,
+      "hero_image": "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?auto=format&fit=crop&w=1600&q=80",
+      "project_url": "",
+      "github_url": "",
+      "challenge": "Achieving sub-16ms touch gesture response inside web containers.",
+      "solution": "Used CSS touch-action manipulation and passive wheel listeners with Web Workers.",
+      "results": "Early internal alpha shows 99% gesture parity with native apps.",
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "project_images": [
+    {
+      "id": "d955f24d-e28e-4802-9a10-949747be303b",
+      "project_id": "53bd5c7a-d542-41b5-a7f8-5d3d0fc5f5ba",
+      "image_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Creative Studio Platform Hero View",
+      "sort_order": 1,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "e88a0d61-c557-467b-9ac0-c0498f62a1da",
+      "project_id": "53bd5c7a-d542-41b5-a7f8-5d3d0fc5f5ba",
+      "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Glassmorphism Design Tokens & Elevation",
+      "sort_order": 2,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "4785d732-8ab5-4ceb-acb2-31fa6cdfda8d",
+      "project_id": "53bd5c7a-d542-41b5-a7f8-5d3d0fc5f5ba",
+      "image_url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Micro-Interactions and Hover Dynamics",
+      "sort_order": 3,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "3f247e9b-063d-4d89-a572-36fff96745fb",
+      "project_id": "2674ca93-8b5b-410a-8556-e92197878c06",
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Control Hub Overview & Analytics Dashboard",
+      "sort_order": 1,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "5ac04e3a-cb16-47bd-acb4-f2dcab09b4b0",
+      "project_id": "2674ca93-8b5b-410a-8556-e92197878c06",
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Multi-Tenant Permissions Matrix",
+      "sort_order": 2,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "4f8545a7-51c3-42a2-945a-3c179d96b32c",
+      "project_id": "8b4c6d18-1020-49db-9c49-612feac43433",
+      "image_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+      "alt_text": "Editorial Typography Spreads and Visual Grid",
+      "sort_order": 1,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "24b11a6a-06f8-45f4-bd49-10926f82df14",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Modern React & TypeScript",
+      "category": "Development",
+      "level": 96,
+      "icon": "Code2",
+      "years": 6,
+      "sort_order": 1,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "339e8a62-1f8d-4834-98d5-7ab333deac26",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Design Systems & Tailwind CSS",
+      "category": "Design",
+      "level": 95,
+      "icon": "Palette",
+      "years": 5,
+      "sort_order": 2,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "87194dd6-220e-455b-8fab-b42f9a5f4384",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "High-Performance UI & Animations",
+      "category": "Development",
+      "level": 92,
+      "icon": "Sparkles",
+      "years": 4,
+      "sort_order": 3,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "4fe53044-db8a-4b15-a285-8cde4f6e9328",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "SaaS Architecture & Multi-Tenancy",
+      "category": "Architecture",
+      "level": 89,
+      "icon": "Server",
+      "years": 4,
+      "sort_order": 4,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "bb4e6ecb-6358-410e-9858-b06aa1cf6396",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "PostgreSQL & Database Design",
+      "category": "Architecture",
+      "level": 88,
+      "icon": "Database",
+      "years": 4,
+      "sort_order": 5,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "167861a8-2640-40b4-bbd5-997efe33e4a7",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "UI/UX Prototyping & Glassmorphism",
+      "category": "Design",
+      "level": 90,
+      "icon": "Layout",
+      "years": 5,
+      "sort_order": 6,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "5d80ebd0-ccef-4b30-a7cb-1d6b52dfca19",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "company": "Creative Studio",
+      "position": "Lead Creative Developer & Digital Architect",
+      "location": "Remote",
+      "start_date": "2024",
+      "end_date": "",
+      "current_position": true,
+      "description": "Architecting modern portfolio ecosystems, developing high-end interactive client web applications, and maintaining component design systems.",
+      "technologies": [
+        "React 19",
+        "TypeScript",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "company_logo": "",
+      "sort_order": 1,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "1533aa8a-3a86-4f72-89d5-7da95375c0c0",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "company": "Independent Digital Craftsman",
+      "position": "Senior Frontend Engineer & UI Consultant",
+      "location": "Global / Remote",
+      "start_date": "2022",
+      "end_date": "2024",
+      "current_position": false,
+      "description": "Delivered bespoke web applications, design systems, and client portfolio experiences with focus on performance, accessibility, and modern aesthetics. [Editable placeholder]",
+      "technologies": [
+        "Next.js",
+        "Framer Motion",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "company_logo": "",
+      "sort_order": 2,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "66749edf-208a-47f0-9e13-d2405c2d8c16",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "title": "Full-Stack Web Development",
+      "description": "Building blazing-fast, responsive web applications engineered with React, TypeScript, and robust API architectures.",
+      "icon": "Code",
+      "features": [
+        "React 19 & TypeScript",
+        "PostgreSQL / Supabase Integration",
+        "Sub-second page speeds",
+        "Responsive across all devices"
+      ],
+      "price": "From $1,500",
+      "currency": "USD",
+      "cta": "Start Project",
+      "active": true,
+      "sort_order": 1,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "d205b606-9140-4541-ba6c-407d4c149ad0",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "title": "UI/UX & Design Systems",
+      "description": "Designing high-impact, cohesive visual languages, glassmorphic accents, and accessible component libraries.",
+      "icon": "Palette",
+      "features": [
+        "Bespoke Design Tokens",
+        "Dark & Light Mode Parity",
+        "Tactile Micro-Interactions",
+        "Figma to Production Code"
+      ],
+      "price": "From $1,200",
+      "currency": "USD",
+      "cta": "Request Design",
+      "active": true,
+      "sort_order": 2,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "01dee365-77a9-4094-b5e1-8e0b1ae19813",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "title": "SaaS Platform Architecture",
+      "description": "Multi-tenant database modeling, secure authentication, role-based permissions, and high-volume data control hubs.",
+      "icon": "Layers",
+      "features": [
+        "Multi-Tenancy from Day 1",
+        "Row Level Security (RLS)",
+        "Automated Audit Logging",
+        "Scalable Cloud Storage"
+      ],
+      "price": "Custom",
+      "currency": "USD",
+      "cta": "Consult Architecture",
+      "active": true,
+      "sort_order": 3,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "713c5279-23c2-49e2-90a2-9febad37a0a4",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Elena Rostova",
+      "role": "Design Director",
+      "company": "Studio Lumina",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "content": "Adam translated our most ambitious visual concepts into silky-smooth web interactions. His attention to typography and subtle glass depth is world-class.",
+      "rating": 5,
+      "published": true,
+      "sort_order": 1,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "072d586f-45ca-4c77-8807-f68a21a001e9",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "name": "Marc Vance",
+      "role": "Founder & CEO",
+      "company": "HyperShift Labs",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "content": "Working with Adam on our SaaS dashboard set a whole new bar for our engineering team. Rapid delivery, flawless architecture, and zero technical debt.",
+      "rating": 5,
+      "published": true,
+      "sort_order": 2,
+      "deleted_at": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "social_links": [
+    {
+      "id": "3ede360a-297c-4acd-b898-f8915d161708",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "platform": "Facebook",
+      "url": "https://facebook.com",
+      "label": "Facebook Profile",
+      "icon": "Facebook",
+      "sort_order": 1,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "d9757cfb-99a8-4570-a738-b19245db3891",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "platform": "GitHub",
+      "url": "https://github.com",
+      "label": "GitHub Repositories",
+      "icon": "Github",
+      "sort_order": 2,
+      "visible": true,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "93008329-45bc-445a-baa1-b760f5c76ed3",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Muhammad, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T16:28:12.764Z"
+    },
+    {
+      "id": "09c6f327-6c30-4903-a136-9d6279719e99",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Muhammad, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T16:15:46.691Z"
+    },
+    {
+      "id": "be740648-1ee1-47e0-be01-0a8d41a487aa",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Muhammad, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T16:14:29.127Z"
+    },
+    {
+      "id": "c099fcc5-10b9-4ec1-afcf-09e8d2a5f8b5",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T15:26:07.141Z"
+    },
+    {
+      "id": "feb1fdf0-95a2-480a-98ed-0df4e5db39d2",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T15:24:35.243Z"
+    },
+    {
+      "id": "eb68d292-4988-4091-9e83-8cf8bcd309d9",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T15:19:19.190Z"
+    },
+    {
+      "id": "c9a137db-9fed-40f6-a5f8-c287a44bfef5",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T14:06:18.899Z"
+    },
+    {
+      "id": "afb2452f-da9c-4380-b644-362ed5160f52",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T14:05:46.429Z"
+    },
+    {
+      "id": "d1df76f6-b0ac-4290-b7b2-10ac49c1a833",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T14:05:22.901Z"
+    },
+    {
+      "id": "eeef90b3-88ec-4983-9dfc-7d513abe1273",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Connor",
+      "email": "sarah@skynet-research.org",
+      "subject": "Senior Architecture Consulting",
+      "message": "Hello Adam, we reviewed your creative portfolio and would love to collaborate.",
+      "status": "UNREAD",
+      "date": "2026-09-28T14:04:04.146Z"
+    },
+    {
+      "id": "b8192afd-7280-44a3-b87a-dd0c6d954747",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "sender": "Sarah Jenkins",
+      "email": "sarah.jenkins@designcorp.io",
+      "subject": "Collaboration on Next-Gen SaaS Platform",
+      "message": "Hi Adam! We came across your creative work and would love to discuss a potential partnership on our upcoming design system and dashboard overhaul. Looking forward to connecting!",
+      "status": "UNREAD",
+      "date": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "4459c8f0-bd52-47c5-a5b0-39dd8807ef84",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T16:28:12.764Z"
+    },
+    {
+      "id": "19acaf62-c164-4f4d-a3e3-bfce0cf2f9e2",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T16:28:12.755Z"
+    },
+    {
+      "id": "5bf4ca34-63a1-4414-9bbd-ac8903af400d",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T16:15:46.691Z"
+    },
+    {
+      "id": "8ede4813-1cd3-4465-bb58-d4aa1bf0195c",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T16:15:46.681Z"
+    },
+    {
+      "id": "4970118b-b45f-4f97-bc5d-318308272df9",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T16:14:29.127Z"
+    },
+    {
+      "id": "0247779a-cbfe-4c40-91ec-33a05ada5ce4",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T16:14:29.120Z"
+    },
+    {
+      "id": "3f825a6b-e34c-48f1-ae4b-686fcd91a62f",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T15:26:07.141Z"
+    },
+    {
+      "id": "429282f3-282f-489a-b33a-d71b91d19c76",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T15:26:07.132Z"
+    },
+    {
+      "id": "05c4a054-4dbb-4b00-a730-c9d4b6d87822",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T15:24:35.243Z"
+    },
+    {
+      "id": "1f28a251-01c6-41be-9eeb-97a38396280e",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T15:24:35.230Z"
+    },
+    {
+      "id": "34b50fcd-e2ce-4185-83a6-2136ca92c759",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T15:19:19.190Z"
+    },
+    {
+      "id": "c471c03b-876c-4d53-a3b0-105f5b2ca619",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T15:19:19.180Z"
+    },
+    {
+      "id": "a61b67b3-7d9b-4b13-ae51-19e1d31e7bc2",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T14:06:18.899Z"
+    },
+    {
+      "id": "dfb13af6-d262-4322-b78a-1015464b8cf5",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T14:06:18.889Z"
+    },
+    {
+      "id": "d3641884-7ac2-4d5b-8133-c6206745e146",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T14:05:46.429Z"
+    },
+    {
+      "id": "b8462cda-08a0-4bb4-83f3-28dcb6d98027",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T14:05:46.418Z"
+    },
+    {
+      "id": "92a4f32d-e849-4dda-bb60-1ef1748afaa7",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T14:05:22.901Z"
+    },
+    {
+      "id": "2edc3b96-3664-4458-872a-ffc408023c99",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T14:05:22.896Z"
+    },
+    {
+      "id": "8de25a47-5a11-4b1a-862f-11c5eb22712a",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "Inquiry from Sarah Connor",
+      "message": "Senior Architecture Consulting",
+      "read": false,
+      "created_at": "2026-09-28T14:04:04.146Z"
+    },
+    {
+      "id": "03394bde-f929-4b12-8b69-6faee9cb77d1",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "type": "SYSTEM",
+      "title": "Portfolio Published",
+      "message": "Your portfolio status has been updated to PUBLISHED.",
+      "read": false,
+      "created_at": "2026-09-28T14:04:04.137Z"
+    },
+    {
+      "id": "d4654a99-fab0-473b-9714-45160018fe11",
+      "user_id": "88c7c572-0539-4121-a2ce-a8318e54909a",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "MESSAGE",
+      "title": "New Contact Inquiry",
+      "message": "Sarah Jenkins sent you a message regarding Collaboration on Next-Gen SaaS Platform.",
+      "read": false,
+      "created_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "f09aafdd-9ddc-4d59-a51c-1915481a7e75",
+      "user_id": "88c7c572-0539-4121-a2ce-a8318e54909a",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "type": "SYSTEM",
+      "title": "Welcome to your Portfolio CMS",
+      "message": "Your portfolio is live. You can edit all content, projects, and themes directly from your dashboard.",
+      "read": true,
+      "created_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "site_settings": [
+    {
+      "id": "3a183925-9641-4b84-a43d-4ac5630dd7c5",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "title": "Adam Hussein — Digital Creator & Creative Developer",
+      "description": "Official portfolio of Adam Hussein. Specialized in digital creation, high-performance web applications, modern SaaS interfaces, and creative engineering.",
+      "logo": "",
+      "favicon": "",
+      "primary_color": "#EF4444",
+      "default_theme": "dark",
+      "seo_title": "Adam Hussein — Digital Creator & Creative Developer",
+      "seo_description": "Portfolio of Adam Hussein. Explore case studies, skills, experience, and creative projects built with modern web technologies.",
+      "og_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "contact_email": "adamhussein0215@gmail.com",
+      "phone": "01210278246",
+      "location": "Egypt / Remote Worldwide",
+      "professional_title": "Digital Creator & Creative Developer",
+      "bio": "Creative software engineer and digital creator passionate about building modern web experiences, fluid micro-interactions, and resilient applications. Contact: adamhussein0215@gmail.com | 01210278246.",
+      "portrait_url": "/assets/adam-portrait.png",
+      "resume_url": "",
+      "stats": {
+        "projects": 18,
+        "experience_years": 5,
+        "clients": 14,
+        "technologies": 24
+      },
+      "custom_domain": null,
+      "created_at": "2026-09-27T17:44:54.884Z",
+      "updated_at": "2026-09-28T14:04:52.254Z"
+    },
+    {
+      "id": "6f003b1d-3846-40b7-bb0e-c63a010badcc",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T14:04:04.125Z",
+      "updated_at": "2026-09-28T14:05:10.815Z"
+    },
+    {
+      "id": "9fc31a57-4c16-4d17-898b-2a6df7461f01",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T14:05:22.889Z",
+      "updated_at": "2026-09-28T14:05:22.900Z"
+    },
+    {
+      "id": "9446a3ed-528d-402d-8791-2c3d41dcfce4",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T14:05:46.410Z",
+      "updated_at": "2026-09-28T14:05:46.425Z"
+    },
+    {
+      "id": "1f5f9715-10aa-4a80-b405-2e5877ced495",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T14:06:18.881Z",
+      "updated_at": "2026-09-28T14:06:18.898Z"
+    },
+    {
+      "id": "1fa8e0b1-61bf-43c4-b0db-c90f058fc5dc",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T15:19:19.169Z",
+      "updated_at": "2026-09-28T15:19:19.188Z"
+    },
+    {
+      "id": "31603c27-1def-4dc8-a1f9-d87ce87115c7",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T15:24:35.221Z",
+      "updated_at": "2026-09-28T15:24:35.240Z"
+    },
+    {
+      "id": "a74006d7-b152-46a0-b583-0a3a61c54865",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T15:26:07.124Z",
+      "updated_at": "2026-09-28T15:26:07.139Z"
+    },
+    {
+      "id": "c3cd1995-33e7-4e3a-9a32-009d6a8d0cb9",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T16:14:29.111Z",
+      "updated_at": "2026-09-28T16:14:29.126Z"
+    },
+    {
+      "id": "1082ca95-3772-4fe8-a7a3-6c2659844276",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T16:15:46.674Z",
+      "updated_at": "2026-09-28T16:15:46.689Z"
+    },
+    {
+      "id": "53d57a09-de18-4c67-829e-c216ac289997",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "title": "Custom Showcase Title",
+      "description": "Welcome to the creative portfolio of Test Creative Studio.",
+      "primary_color": "#10B981",
+      "default_theme": "dark",
+      "bio": "Pioneering interactive design and creative software architectures.",
+      "professional_title": "Lead Design Technologist",
+      "stats": {
+        "projects": 0,
+        "experience_years": 0,
+        "clients": 0,
+        "technologies": 0
+      },
+      "created_at": "2026-09-28T16:28:12.744Z",
+      "updated_at": "2026-09-28T16:28:12.762Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "ac191f9c-bb8b-4498-987b-7b791ae7fd4d",
+      "user_email": "studio-1790612892744@fawzi.dev",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "53d57a09-de18-4c67-829e-c216ac289997",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T16:28:12.762Z"
+    },
+    {
+      "id": "fb12e54b-9308-47bb-b549-da7947fc4a81",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:28:12.760Z"
+    },
+    {
+      "id": "f25ad766-7399-4df3-8cba-641bd3315392",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:28:12.758Z"
+    },
+    {
+      "id": "2c51937b-99d5-47b4-afce-40cca0d4c4b1",
+      "user_email": "studio-1790612892744@fawzi.dev",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T16:28:12.754Z"
+    },
+    {
+      "id": "c7c81dcf-1839-4463-956e-710cdf68c83c",
+      "user_id": "c19b14ec-b8c2-42e7-8764-85d605f8d141",
+      "user_email": "studio-1790612892744@fawzi.dev",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "details": {
+        "email": "studio-1790612892744@fawzi.dev"
+      },
+      "created_at": "2026-09-28T16:28:12.751Z"
+    },
+    {
+      "id": "b2990da2-7e38-4860-af46-31cdcb142834",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "portfolio_id": "5e4d94da-5fe2-4ff6-8391-659b5ed7b727",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "3c441699-bd66-4588-bb1c-aaf603795a16",
+      "details": {
+        "email": "studio-1790612892744@fawzi.dev",
+        "slug": "test-studio-1790612892744"
+      },
+      "created_at": "2026-09-28T16:28:12.746Z"
+    },
+    {
+      "id": "29618c05-ab69-4206-8c6c-1bbae8a876d6",
+      "user_email": "studio-1790612146673@fawzi.dev",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "1082ca95-3772-4fe8-a7a3-6c2659844276",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T16:15:46.689Z"
+    },
+    {
+      "id": "e51c36c5-56da-4db5-b966-871c7714102b",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:15:46.686Z"
+    },
+    {
+      "id": "41993de2-f106-46c4-83a2-122b0da2c463",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:15:46.684Z"
+    },
+    {
+      "id": "8a5c12b8-94bb-4b28-b20d-718bf913c584",
+      "user_email": "studio-1790612146673@fawzi.dev",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T16:15:46.681Z"
+    },
+    {
+      "id": "1f4fccd5-ae1c-4d71-afcf-042d2d56f5c9",
+      "user_id": "a1f3467a-77cb-4285-ba3f-1927e0edb38d",
+      "user_email": "studio-1790612146673@fawzi.dev",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "details": {
+        "email": "studio-1790612146673@fawzi.dev"
+      },
+      "created_at": "2026-09-28T16:15:46.679Z"
+    },
+    {
+      "id": "4270799c-2bf4-469b-b214-ec8174eaa283",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "portfolio_id": "95e6d9bb-579f-4108-aeca-b144d3bebb4c",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "8a1ad2fb-4ffe-4abb-a410-b0eb98d938de",
+      "details": {
+        "email": "studio-1790612146673@fawzi.dev",
+        "slug": "test-studio-1790612146673"
+      },
+      "created_at": "2026-09-28T16:15:46.675Z"
+    },
+    {
+      "id": "9d14ead1-013d-4d30-aa32-d16399458ad4",
+      "user_email": "studio-1790612069111@fawzi.dev",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "c3cd1995-33e7-4e3a-9a32-009d6a8d0cb9",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T16:14:29.126Z"
+    },
+    {
+      "id": "d2332122-08f3-4356-837e-8bfd9c3c39ef",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:14:29.124Z"
+    },
+    {
+      "id": "e84d7428-d519-4e23-b62c-07c2c17e769a",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T16:14:29.122Z"
+    },
+    {
+      "id": "0fed1386-68e4-4c57-b8c0-440ecb3bd38b",
+      "user_email": "studio-1790612069111@fawzi.dev",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T16:14:29.120Z"
+    },
+    {
+      "id": "c86e9682-e959-46e9-ac3d-1d29784c5822",
+      "user_id": "58fe9de3-64a5-4388-9f81-876f4cdbb739",
+      "user_email": "studio-1790612069111@fawzi.dev",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "details": {
+        "email": "studio-1790612069111@fawzi.dev"
+      },
+      "created_at": "2026-09-28T16:14:29.118Z"
+    },
+    {
+      "id": "c2c85222-efc5-42eb-8ec5-b12d98aa835c",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "portfolio_id": "4559fdd4-c646-4bf0-9f66-a2216bcf2b95",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "99cab072-5624-4f2b-b247-3f13dc410142",
+      "details": {
+        "email": "studio-1790612069111@fawzi.dev",
+        "slug": "test-studio-1790612069111"
+      },
+      "created_at": "2026-09-28T16:14:29.112Z"
+    },
+    {
+      "id": "12802ae1-86ff-421d-a891-109301d1c717",
+      "user_email": "studio-1790609167124@fawzi.dev",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "a74006d7-b152-46a0-b583-0a3a61c54865",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T15:26:07.139Z"
+    },
+    {
+      "id": "ffadce06-15ac-4d0f-a304-65282d6ed144",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:26:07.137Z"
+    },
+    {
+      "id": "5d3d747a-f2b0-4c34-9d28-4d053d6eb2b6",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:26:07.135Z"
+    },
+    {
+      "id": "10a7cf2a-b82f-4af4-a130-8f3e0edff8c6",
+      "user_email": "studio-1790609167124@fawzi.dev",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T15:26:07.132Z"
+    },
+    {
+      "id": "51eb4272-4a10-473f-8f3c-0123f963cc6c",
+      "user_id": "b7099d62-f03a-4876-9b73-73411847d0b4",
+      "user_email": "studio-1790609167124@fawzi.dev",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "details": {
+        "email": "studio-1790609167124@fawzi.dev"
+      },
+      "created_at": "2026-09-28T15:26:07.130Z"
+    },
+    {
+      "id": "ed1b3b48-f196-4551-9161-3b630b8b5f07",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "portfolio_id": "09042c2a-40be-4016-b38a-b3fee2f50977",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "113183f1-0940-4ef7-8538-bd793674f627",
+      "details": {
+        "email": "studio-1790609167124@fawzi.dev",
+        "slug": "test-studio-1790609167124"
+      },
+      "created_at": "2026-09-28T15:26:07.125Z"
+    },
+    {
+      "id": "750dcf8e-4237-43f2-be76-7a712a2f0c7f",
+      "user_email": "studio-1790609075221@fawzi.dev",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "31603c27-1def-4dc8-a1f9-d87ce87115c7",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T15:24:35.240Z"
+    },
+    {
+      "id": "cee755d9-7518-4320-a866-61c2eb83118e",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:24:35.238Z"
+    },
+    {
+      "id": "5b8f279e-72ae-4bd2-8fff-802dd90415b6",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:24:35.233Z"
+    },
+    {
+      "id": "6773d259-693a-436f-85d1-4a130dd87e77",
+      "user_email": "studio-1790609075221@fawzi.dev",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T15:24:35.230Z"
+    },
+    {
+      "id": "e863de42-7545-4427-a623-dbc04eec6253",
+      "user_id": "0f31b4de-87cd-46f2-9218-0789cc800830",
+      "user_email": "studio-1790609075221@fawzi.dev",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "details": {
+        "email": "studio-1790609075221@fawzi.dev"
+      },
+      "created_at": "2026-09-28T15:24:35.227Z"
+    },
+    {
+      "id": "4dc530b8-e3b4-4999-9875-72de14397079",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "portfolio_id": "0e4ce04d-5219-49dd-84b4-3645680f46d9",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea5c51c7-e8d1-42b7-96e1-f7bdb9b139b0",
+      "details": {
+        "email": "studio-1790609075221@fawzi.dev",
+        "slug": "test-studio-1790609075221"
+      },
+      "created_at": "2026-09-28T15:24:35.222Z"
+    },
+    {
+      "id": "f050f7e2-dc53-4063-b8dc-026e8673fc85",
+      "user_email": "studio-1790608759169@fawzi.dev",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "1fa8e0b1-61bf-43c4-b0db-c90f058fc5dc",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T15:19:19.188Z"
+    },
+    {
+      "id": "38925201-9525-4232-8da0-b9a06ce59e89",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:19:19.185Z"
+    },
+    {
+      "id": "de5ee560-25e3-408d-a4f8-889c41cc0257",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T15:19:19.183Z"
+    },
+    {
+      "id": "dc2c2c54-ea55-41b3-a74f-e2041f905a4d",
+      "user_email": "studio-1790608759169@fawzi.dev",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T15:19:19.180Z"
+    },
+    {
+      "id": "b96a8bbc-311d-4eda-ab27-22d046119196",
+      "user_id": "35af54a8-201f-4363-9ec9-d167adaaabe2",
+      "user_email": "studio-1790608759169@fawzi.dev",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "details": {
+        "email": "studio-1790608759169@fawzi.dev"
+      },
+      "created_at": "2026-09-28T15:19:19.177Z"
+    },
+    {
+      "id": "2b8b2bfb-c498-4575-87ed-72e114a87f17",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "portfolio_id": "dc626dfe-2ce0-4a20-b57f-4792cd23cce4",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "5601203c-ee1e-4f56-8320-f1a6b78470ee",
+      "details": {
+        "email": "studio-1790608759169@fawzi.dev",
+        "slug": "test-studio-1790608759169"
+      },
+      "created_at": "2026-09-28T15:19:19.171Z"
+    },
+    {
+      "id": "6158efc7-ddd0-4ea0-96b8-31c3cb5bb501",
+      "user_email": "studio-1790604378881@fawzi.dev",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "1f5f9715-10aa-4a80-b405-2e5877ced495",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T14:06:18.898Z"
+    },
+    {
+      "id": "4ad1ab72-942e-488f-8bf7-8fa443f5bd9e",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:06:18.892Z"
+    },
+    {
+      "id": "e7c8f04e-ec1b-4b0b-9220-4c4acd0f3acf",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:06:18.891Z"
+    },
+    {
+      "id": "f4521a04-f776-4e74-b2eb-1a8309b7c0f4",
+      "user_email": "studio-1790604378881@fawzi.dev",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T14:06:18.889Z"
+    },
+    {
+      "id": "0dbbd0b5-0ca9-42e0-9cd8-d7c8e885d54e",
+      "user_id": "ea81e921-4c55-469d-9e52-ebc21aaeb0eb",
+      "user_email": "studio-1790604378881@fawzi.dev",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "details": {
+        "email": "studio-1790604378881@fawzi.dev"
+      },
+      "created_at": "2026-09-28T14:06:18.887Z"
+    },
+    {
+      "id": "72f3dafc-d24f-48af-94e0-c807fdab7d2a",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "portfolio_id": "27d7caac-3ac0-456d-95e8-f8bc9d9713bd",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "8f726c74-cf22-42da-bf8c-0dda38055762",
+      "details": {
+        "email": "studio-1790604378881@fawzi.dev",
+        "slug": "test-studio-1790604378881"
+      },
+      "created_at": "2026-09-28T14:06:18.882Z"
+    },
+    {
+      "id": "fb67ce88-8cca-40a4-8dc7-170d3aafb242",
+      "user_email": "studio-1790604346410@fawzi.dev",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "9446a3ed-528d-402d-8791-2c3d41dcfce4",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T14:05:46.425Z"
+    },
+    {
+      "id": "83ece175-e565-44cf-a1cc-5bd5177618b2",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:05:46.421Z"
+    },
+    {
+      "id": "b8d5ed18-3b41-44cd-b90a-c9db83dfe2aa",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:05:46.419Z"
+    },
+    {
+      "id": "5e1a5d7c-577d-4fb0-a7cb-957ff223a270",
+      "user_email": "studio-1790604346410@fawzi.dev",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T14:05:46.418Z"
+    },
+    {
+      "id": "4e46b7eb-9917-47cb-a30a-43dbf71fd4e4",
+      "user_id": "560699b2-399e-43e0-b15e-b6d4078a958b",
+      "user_email": "studio-1790604346410@fawzi.dev",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "details": {
+        "email": "studio-1790604346410@fawzi.dev"
+      },
+      "created_at": "2026-09-28T14:05:46.416Z"
+    },
+    {
+      "id": "8830f893-6979-4c05-b951-79aa149747ce",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "portfolio_id": "5178388f-d6af-40fb-b59a-68c6bc816e7b",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "7c46690d-42b2-4ade-a1ef-401dac6736bc",
+      "details": {
+        "email": "studio-1790604346410@fawzi.dev",
+        "slug": "test-studio-1790604346410"
+      },
+      "created_at": "2026-09-28T14:05:46.412Z"
+    },
+    {
+      "id": "c5ffa04f-bf71-4117-ab7d-21cf93416b12",
+      "user_email": "studio-1790604322888@fawzi.dev",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "9fc31a57-4c16-4d17-898b-2a6df7461f01",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T14:05:22.900Z"
+    },
+    {
+      "id": "84750b3d-2b41-4142-898b-99c0d6c49222",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:05:22.898Z"
+    },
+    {
+      "id": "fbcdc097-5b60-4231-9485-91f4b97ff4da",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:05:22.897Z"
+    },
+    {
+      "id": "3451375c-a3e1-437c-885b-6b47143db100",
+      "user_email": "studio-1790604322888@fawzi.dev",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T14:05:22.895Z"
+    },
+    {
+      "id": "be4e2686-743c-4c93-8a37-fafb95b064b8",
+      "user_id": "317b2758-3341-45e3-ab91-165caed5a629",
+      "user_email": "studio-1790604322888@fawzi.dev",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "details": {
+        "email": "studio-1790604322888@fawzi.dev"
+      },
+      "created_at": "2026-09-28T14:05:22.894Z"
+    },
+    {
+      "id": "9c797339-cbf4-4c6b-82a2-fa31aeb72106",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "portfolio_id": "f22fd016-ff6c-479d-af7f-33bf01731c76",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "ea6f3c26-9620-4445-b9f0-f46e5e04e1ab",
+      "details": {
+        "email": "studio-1790604322888@fawzi.dev",
+        "slug": "test-studio-1790604322888"
+      },
+      "created_at": "2026-09-28T14:05:22.890Z"
+    },
+    {
+      "id": "997018f1-b8d0-49a2-a176-bb1d3724284a",
+      "user_email": "admin@fawzi.dev",
+      "action": "PLATFORM_SETTINGS_UPDATED",
+      "entity_type": "PLATFORM_SETTINGS",
+      "entity_id": "e6ccc19d-d58e-4001-b481-41b5a690a0bc",
+      "details": {
+        "primary_color": "#10B981"
+      },
+      "created_at": "2026-09-28T14:05:10.816Z"
+    },
+    {
+      "id": "ad1a2576-ebbc-41e8-9c12-9027a9aba6cd",
+      "user_email": "muhammad@fawzi.dev",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "3a183925-9641-4b84-a43d-4ac5630dd7c5",
+      "details": {
+        "primary_color": "#3B82F6"
+      },
+      "created_at": "2026-09-28T14:04:52.254Z"
+    },
+    {
+      "id": "0ebf6f70-f40a-4ed9-bace-209f253071d7",
+      "user_email": "studio-1790604244124@fawzi.dev",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "6f003b1d-3846-40b7-bb0e-c63a010badcc",
+      "details": {
+        "title": "Custom Showcase Title"
+      },
+      "created_at": "2026-09-28T14:04:04.144Z"
+    },
+    {
+      "id": "fcdb4a93-931e-4af5-9371-2522eed8a451",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "action": "CLIENT_RESTORED",
+      "entity_type": "CLIENT",
+      "entity_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:04:04.143Z"
+    },
+    {
+      "id": "b6dce139-9b31-4670-add3-0437f358b391",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "action": "CLIENT_SOFT_DELETED",
+      "entity_type": "CLIENT",
+      "entity_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "details": {
+        "client_name": "Test Creative Studio"
+      },
+      "created_at": "2026-09-28T14:04:04.141Z"
+    },
+    {
+      "id": "c1596be3-9ea4-486c-a7aa-3be52431b1b4",
+      "user_email": "studio-1790604244124@fawzi.dev",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "action": "PORTFOLIO_PUBLISHED",
+      "entity_type": "PORTFOLIO",
+      "entity_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "details": {
+        "status": "PUBLISHED"
+      },
+      "created_at": "2026-09-28T14:04:04.137Z"
+    },
+    {
+      "id": "03c0359e-0caf-407c-8b90-369cb4758ce3",
+      "user_id": "8f2b9336-832c-4124-9160-02dba4bee78f",
+      "user_email": "studio-1790604244124@fawzi.dev",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "action": "ONBOARDING_COMPLETED",
+      "entity_type": "CLIENT",
+      "entity_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "details": {
+        "email": "studio-1790604244124@fawzi.dev"
+      },
+      "created_at": "2026-09-28T14:04:04.135Z"
+    },
+    {
+      "id": "307c6d6a-fa96-4cab-b6ee-4368a4013e68",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "portfolio_id": "2db2f907-3213-443f-aa7f-0a5fb33b8bcf",
+      "action": "CLIENT_INVITED",
+      "entity_type": "CLIENT",
+      "entity_id": "51497e33-ed72-4249-a654-d6440df73332",
+      "details": {
+        "email": "studio-1790604244124@fawzi.dev",
+        "slug": "test-studio-1790604244124"
+      },
+      "created_at": "2026-09-28T14:04:04.127Z"
+    },
+    {
+      "id": "9fd1232f-a629-4557-bf0e-60665f681442",
+      "user_email": "muhammad@fawzi.dev",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "action": "SITE_SETTINGS_UPDATED",
+      "entity_type": "SITE_SETTINGS",
+      "entity_id": "3a183925-9641-4b84-a43d-4ac5630dd7c5",
+      "details": {
+        "primary_color": "#3B82F6"
+      },
+      "created_at": "2026-09-28T13:57:01.932Z"
+    },
+    {
+      "id": "1550d47d-7421-455a-833c-af2df43e6966",
+      "user_id": "18de1437-0912-4d35-ad33-4be2a46da950",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "action": "PLATFORM_INITIALIZED",
+      "entity_type": "PLATFORM",
+      "entity_id": "e6ccc19d-d58e-4001-b481-41b5a690a0bc",
+      "details": {
+        "message": "Portfolio multi-tenant engine initialized."
+      },
+      "created_at": "2026-09-27T17:44:54.884Z"
+    },
+    {
+      "id": "3c44fe2a-0535-472d-b6c3-d9c3f951ff49",
+      "user_id": "18de1437-0912-4d35-ad33-4be2a46da950",
+      "user_email": "admin@fawzi.dev",
+      "client_id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "portfolio_id": "5cc5eca6-e0e3-49f8-b197-29a99663c8e8",
+      "action": "CLIENT_CREATED",
+      "entity_type": "CLIENT",
+      "entity_id": "54b7a563-162a-4efc-a371-ea932e568cab",
+      "details": {
+        "client_name": "Muhammad Fawzi",
+        "slug": "muhammad-fawzi"
+      },
+      "created_at": "2026-09-27T17:44:54.884Z"
+    }
+  ],
+  "auth_credentials": [
+    {
+      "email": "admin@fawzi.dev",
+      "passwordHash": "6051fc84a7a0d74c225fb18a496b09952da5642e60723ecae543298edd7d82d6",
+      "userId": "18de1437-0912-4d35-ad33-4be2a46da950",
+      "role": "SUPER_ADMIN"
+    },
+    {
+      "email": "muhammad@fawzi.dev",
+      "passwordHash": "02207a8858b933cb119a7465f88a9289d173b000e48b6eea92efae11972b196a",
+      "userId": "88c7c572-0539-4121-a2ce-a8318e54909a",
+      "role": "CLIENT"
+    },
+    {
+      "email": "omar@fawzi.dev",
+      "passwordHash": "7b7375b4105cb1cce0cec22d4254d96ac195775616fa148417f145e36f9d0988",
+      "userId": "88c7c572-0539-4121-a2ce-a8318e54909a",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790604244124@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "8f2b9336-832c-4124-9160-02dba4bee78f",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790604322888@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "317b2758-3341-45e3-ab91-165caed5a629",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790604346410@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "560699b2-399e-43e0-b15e-b6d4078a958b",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790604378881@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "ea81e921-4c55-469d-9e52-ebc21aaeb0eb",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790608759169@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "35af54a8-201f-4363-9ec9-d167adaaabe2",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790609075221@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "0f31b4de-87cd-46f2-9218-0789cc800830",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790609167124@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "b7099d62-f03a-4876-9b73-73411847d0b4",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790612069111@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "58fe9de3-64a5-4388-9f81-876f4cdbb739",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790612146673@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "a1f3467a-77cb-4285-ba3f-1927e0edb38d",
+      "role": "CLIENT"
+    },
+    {
+      "email": "studio-1790612892744@fawzi.dev",
+      "passwordHash": "486f0a9839674a9dfcf52efbffe2469b01b87f5e5c967ec8f0ee3b7d9a308a8c",
+      "userId": "c19b14ec-b8c2-42e7-8764-85d605f8d141",
+      "role": "CLIENT"
+    }
+  ]
+}

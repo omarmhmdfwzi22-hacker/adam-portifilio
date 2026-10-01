@@ -1,0 +1,439 @@
+import React, { useEffect, useState } from 'react';
+import { RouterProvider, useRouter, matchRoute, getAssetUrl } from './lib/router';
+import { ThemeProvider, useTheme } from './context/ThemeContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import { ToastProvider } from './components/ui/Toast';
+
+// Layout & UI
+import { Navbar } from './components/layout/Navbar';
+import { Footer } from './components/layout/Footer';
+import { ErrorPage } from './components/ui/ErrorPages';
+import { PageSkeleton } from './components/ui/Skeletons';
+
+// Types, Services & Branding
+import { PublicPortfolioBundle } from './types/portfolio';
+import { portfolioService } from './services/portfolioService';
+import { localCMSStore } from './services/localCMSStore';
+import { applyBrandColor, applyDefaultTheme, initBranding } from './lib/branding';
+
+// Public Pages
+import { HomePage } from './pages/public/HomePage';
+import { ProjectsPage } from './pages/public/ProjectsPage';
+import { ProjectDetailPage } from './pages/public/ProjectDetailPage';
+import { AboutPage } from './pages/public/AboutPage';
+import { SkillsPage } from './pages/public/SkillsPage';
+import { ExperiencePage } from './pages/public/ExperiencePage';
+import { ServicesPage } from './pages/public/ServicesPage';
+import { ContactPage } from './pages/public/ContactPage';
+
+// Auth Pages
+import { LoginPage } from './pages/auth/LoginPage';
+import { ForgotPasswordPage } from './pages/auth/ForgotPasswordPage';
+import { OnboardingPage } from './pages/auth/OnboardingPage';
+
+// Dashboard Pages
+import { DashboardLayout } from './pages/dashboard/DashboardLayout';
+import { DashboardOverview } from './pages/dashboard/DashboardOverview';
+import { ProfileSettings } from './pages/dashboard/ProfileSettings';
+import { ProjectsManager } from './pages/dashboard/ProjectsManager';
+import { ProjectEditor } from './pages/dashboard/ProjectEditor';
+import { CategoriesManager } from './pages/dashboard/CategoriesManager';
+import { SkillsManager } from './pages/dashboard/SkillsManager';
+import { ExperienceManager } from './pages/dashboard/ExperienceManager';
+import { ServicesManager } from './pages/dashboard/ServicesManager';
+import { TestimonialsManager } from './pages/dashboard/TestimonialsManager';
+import { MessagesInbox } from './pages/dashboard/MessagesInbox';
+import { PortfolioSettingsView } from './pages/dashboard/PortfolioSettingsView';
+
+// Super Admin Pages
+import { SuperAdminClients } from './pages/dashboard/SuperAdminClients';
+import { SuperAdminAuditLogs } from './pages/dashboard/SuperAdminAuditLogs';
+import { SuperAdminPlatformSettings } from './pages/dashboard/SuperAdminPlatformSettings';
+
+function ProtectedDashboard({ children }: { children: React.ReactNode }) {
+  const { user, isLoading } = useAuth();
+  const { navigate } = useRouter();
+
+  useEffect(() => {
+    if (!isLoading && !user) {
+      navigate('/login');
+    }
+  }, [isLoading, user, navigate]);
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-zinc-50 dark:bg-[#070707] p-8">
+        <PageSkeleton />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return null;
+  }
+
+  return <>{children}</>;
+}
+
+function AppContent() {
+  const { currentPath, searchParams } = useRouter();
+  const { user, isLoading: isAuthLoading } = useAuth();
+  const { setTheme } = useTheme();
+
+  // Public bundle state - initialized with localCMSStore for instant render
+  const [bundle, setBundle] = useState<PublicPortfolioBundle | null>(() => {
+    try {
+      return localCMSStore.getSyncedPublicBundle();
+    } catch {
+      return null;
+    }
+  });
+  const [isBundleLoading, setIsBundleLoading] = useState(false);
+  const [bundleError, setBundleError] = useState<string | null>(null);
+  const [lastLoadedSlug, setLastLoadedSlug] = useState<string | undefined>(undefined);
+
+  const isPreview = searchParams.get('preview') === 'true';
+
+  // 1. Determine slug and target public subpage unconditionally
+  let portfolioSlug: string | undefined = undefined;
+  let subpage = '';
+  let detailProjectSlug: string | undefined = undefined;
+  let isUnrecognizedPublicPath = false;
+
+  const tenantProjectDetailMatch = matchRoute('/portfolio/:slug/projects/:projectSlug', currentPath);
+  const tenantSubpageMatch = matchRoute('/portfolio/:slug/:subpage', currentPath);
+  const tenantRootMatch = matchRoute('/portfolio/:slug', currentPath);
+  const rootProjectDetailMatch = matchRoute('/projects/:projectSlug', currentPath);
+
+  if (tenantProjectDetailMatch.match) {
+    portfolioSlug = tenantProjectDetailMatch.params.slug;
+    detailProjectSlug = tenantProjectDetailMatch.params.projectSlug;
+    subpage = 'project-detail';
+  } else if (tenantSubpageMatch.match) {
+    portfolioSlug = tenantSubpageMatch.params.slug;
+    subpage = tenantSubpageMatch.params.subpage;
+  } else if (tenantRootMatch.match) {
+    portfolioSlug = tenantRootMatch.params.slug;
+    subpage = 'home';
+  } else if (rootProjectDetailMatch.match) {
+    detailProjectSlug = rootProjectDetailMatch.params.projectSlug;
+    subpage = 'project-detail';
+  } else if (currentPath === '/' || currentPath === '') {
+    subpage = 'home';
+  } else if (!currentPath.startsWith('/dashboard') && currentPath !== '/login' && currentPath !== '/forgot-password' && !matchRoute('/onboarding/:token', currentPath).match) {
+    const cleanSub = currentPath.replace(/^\//, '').split('/')[0];
+    if (['about', 'skills', 'experience', 'projects', 'services', 'contact'].includes(cleanSub)) {
+      subpage = cleanSub;
+    } else {
+      isUnrecognizedPublicPath = true;
+    }
+  }
+
+  // 2. ALL REACT HOOKS DECLARED AT THE TOP UNCONDITIONALLY
+
+  // Load public portfolio bundle
+  useEffect(() => {
+    let isCancelled = false;
+
+    async function loadPortfolio() {
+      setIsBundleLoading(true);
+      setBundleError(null);
+
+      try {
+        const data = await portfolioService.getPublicPortfolio(portfolioSlug, isPreview);
+        if (!isCancelled) {
+          // Color resolution priority:
+          // Check if user has set a custom color locally
+          let userCustomColor: string | null = null;
+          try {
+            userCustomColor = localStorage.getItem('ut_primary_color');
+            if (!userCustomColor) {
+              const raw = localStorage.getItem('ut_cms_site_settings');
+              if (raw) {
+                const parsed = JSON.parse(raw);
+                if (parsed.primary_color && parsed.primary_color !== '#F52F3A') {
+                  userCustomColor = parsed.primary_color;
+                }
+              }
+            }
+          } catch {}
+
+          let resolvedColor = data.settings?.primary_color;
+          // If server returned default #F52F3A but user explicitly set a custom color, preserve user's choice!
+          if ((!resolvedColor || resolvedColor === '#F52F3A') && userCustomColor && userCustomColor !== '#F52F3A') {
+            resolvedColor = userCustomColor;
+            if (data.settings) {
+              data.settings.primary_color = userCustomColor;
+            }
+            settingsService.updatePortfolioSettings({ primary_color: userCustomColor }).catch(() => {});
+          } else if ((!resolvedColor || resolvedColor === '#F52F3A') && data.platform_settings?.primary_color && data.platform_settings.primary_color !== '#F52F3A') {
+            resolvedColor = data.platform_settings.primary_color;
+            if (data.settings) {
+              data.settings.primary_color = resolvedColor;
+            }
+          }
+
+          setBundle(data);
+          setLastLoadedSlug(portfolioSlug);
+
+          if (resolvedColor) {
+            applyBrandColor(resolvedColor);
+            try {
+              localStorage.setItem('ut_primary_color', resolvedColor);
+            } catch {}
+          }
+        }
+      } catch (err: any) {
+        if (!isCancelled) {
+          setBundleError(err.message || 'Portfolio not found or currently offline.');
+        }
+      } finally {
+        if (!isCancelled) {
+          setIsBundleLoading(false);
+        }
+      }
+    }
+
+    loadPortfolio();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [portfolioSlug, isPreview]);
+
+  // Synchronize dynamic primary brand color
+  useEffect(() => {
+    if (bundle?.settings?.primary_color) {
+      applyBrandColor(bundle.settings.primary_color);
+    }
+  }, [bundle?.settings?.primary_color]);
+
+  // Listen to CMS and branding update events in real-time
+  useEffect(() => {
+    initBranding();
+
+    const handleCmsUpdate = () => {
+      try {
+        const synced = localCMSStore.getSyncedPublicBundle();
+        setBundle(synced);
+        if (synced?.settings?.primary_color) {
+          applyBrandColor(synced.settings.primary_color);
+        }
+      } catch {}
+    };
+
+    const handleBrandingChange = (e: any) => {
+      if (e.detail?.primary_color) {
+        applyBrandColor(e.detail.primary_color);
+      }
+    };
+
+    window.addEventListener('ut_cms_updated', handleCmsUpdate);
+    window.addEventListener('ut_branding_changed', handleBrandingChange);
+    return () => {
+      window.removeEventListener('ut_cms_updated', handleCmsUpdate);
+      window.removeEventListener('ut_branding_changed', handleBrandingChange);
+    };
+  }, []);
+
+  // ==========================================
+  // 3. AUTH ROUTES
+  // ==========================================
+  if (currentPath === '/login') {
+    return <LoginPage />;
+  }
+
+  if (currentPath === '/forgot-password') {
+    return <ForgotPasswordPage />;
+  }
+
+  const onboardingMatch = matchRoute('/onboarding/:token', currentPath);
+  if (onboardingMatch.match) {
+    return <OnboardingPage token={onboardingMatch.params.token} />;
+  }
+
+  // ==========================================
+  // 4. DASHBOARD ROUTES (Protected)
+  // ==========================================
+  if (currentPath.startsWith('/dashboard')) {
+    const isSuperAdmin = user?.role === 'SUPER_ADMIN';
+    const isSuperAdminPath =
+      currentPath === '/dashboard/clients' ||
+      currentPath === '/dashboard/audit-logs' ||
+      currentPath === '/dashboard/platform-settings';
+
+    if (isSuperAdminPath && !isSuperAdmin && !isAuthLoading && user) {
+      return (
+        <ProtectedDashboard>
+          <ErrorPage
+            type="403"
+            title="Super Admin Required"
+            message="Strict access policy: You do not have Super Admin agency privileges to access platform settings or client management."
+          />
+        </ProtectedDashboard>
+      );
+    }
+
+    let dashboardView = <DashboardOverview />;
+
+    if (currentPath === '/dashboard' || currentPath === '/dashboard/') {
+      dashboardView = <DashboardOverview />;
+    } else if (currentPath === '/dashboard/profile') {
+      dashboardView = <ProfileSettings />;
+    } else if (currentPath === '/dashboard/projects') {
+      dashboardView = <ProjectsManager />;
+    } else if (currentPath === '/dashboard/projects/new') {
+      dashboardView = <ProjectEditor />;
+    } else if (matchRoute('/dashboard/projects/:id/preview', currentPath).match) {
+      const { params } = matchRoute('/dashboard/projects/:id/preview', currentPath);
+      dashboardView = <ProjectEditor projectId={params.id} />;
+    } else if (matchRoute('/dashboard/projects/:id', currentPath).match) {
+      const { params } = matchRoute('/dashboard/projects/:id', currentPath);
+      dashboardView = <ProjectEditor projectId={params.id} />;
+    } else if (currentPath === '/dashboard/categories') {
+      dashboardView = <CategoriesManager />;
+    } else if (currentPath === '/dashboard/skills') {
+      dashboardView = <SkillsManager />;
+    } else if (currentPath === '/dashboard/experience') {
+      dashboardView = <ExperienceManager />;
+    } else if (currentPath === '/dashboard/services') {
+      dashboardView = <ServicesManager />;
+    } else if (currentPath === '/dashboard/testimonials') {
+      dashboardView = <TestimonialsManager />;
+    } else if (currentPath === '/dashboard/messages') {
+      dashboardView = <MessagesInbox />;
+    } else if (currentPath === '/dashboard/settings') {
+      dashboardView = <PortfolioSettingsView />;
+    } else if (currentPath === '/dashboard/clients') {
+      dashboardView = <SuperAdminClients />;
+    } else if (currentPath === '/dashboard/audit-logs') {
+      dashboardView = <SuperAdminAuditLogs />;
+    } else if (currentPath === '/dashboard/platform-settings') {
+      dashboardView = <SuperAdminPlatformSettings />;
+    } else {
+      return (
+        <ProtectedDashboard>
+          <ErrorPage type="404" title="Dashboard Page Not Found" />
+        </ProtectedDashboard>
+      );
+    }
+
+    return (
+      <ProtectedDashboard>
+        <DashboardLayout>{dashboardView}</DashboardLayout>
+      </ProtectedDashboard>
+    );
+  }
+
+  // ==========================================
+  // 5. PUBLIC PORTFOLIO ROUTES
+  // ==========================================
+  if (isUnrecognizedPublicPath) {
+    return <ErrorPage type="404" />;
+  }
+
+  if (isBundleLoading && !bundle) {
+    return (
+      <div className="min-h-screen bg-[#050505] flex flex-col items-center justify-center p-6 text-center">
+        <div className="w-16 h-16 rounded-2xl bg-zinc-900 border border-white/10 flex items-center justify-center mb-4 shadow-xl relative overflow-hidden">
+          <span className="text-xl font-black text-white">
+            {bundle?.client?.name ? bundle.client.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase() : 'AH'}
+          </span>
+          <div className="absolute inset-0 ring-1 ring-inset ring-[#EF4444]/30 rounded-2xl pointer-events-none" />
+        </div>
+        <div className="w-5 h-5 border-2 border-[#EF4444] border-t-transparent rounded-full animate-spin mb-3" />
+        <p className="text-sm font-extrabold tracking-tight text-white uppercase tracking-wider">
+          {bundle?.client?.name || 'Adam Hussein'}
+        </p>
+        <p className="text-xs text-zinc-500 mt-1 font-mono">Loading portfolio experience...</p>
+      </div>
+    );
+  }
+
+  if (bundleError || !bundle) {
+    return (
+      <ErrorPage
+        type="404"
+        title="Portfolio Unavailable"
+        message={bundleError || 'The requested client portfolio could not be found or has not been published.'}
+      />
+    );
+  }
+
+  // Draft Mode Check
+  if (bundle.portfolio.status === 'DRAFT' && !isPreview) {
+    return (
+      <ErrorPage
+        type="403"
+        title="Portfolio in Draft Mode"
+        message="This creative portfolio is currently in private draft mode while being crafted. If you are the owner, sign in to your dashboard to preview and publish it."
+      />
+    );
+  }
+
+  // Render Public Subpage Content
+  const renderSubpageContent = () => {
+    if (subpage === 'project-detail') {
+      const matchedProject = bundle.projects.find((p: any) => p.slug === detailProjectSlug);
+      if (!matchedProject) {
+        return (
+          <ErrorPage
+            type="404"
+            title="Project Not Found"
+            message={`The project "${detailProjectSlug}" was not found in this portfolio.`}
+          />
+        );
+      }
+      return <ProjectDetailPage project={matchedProject} bundle={bundle} />;
+    }
+
+    switch (subpage) {
+      case 'home':
+        return <HomePage bundle={bundle} />;
+      case 'about':
+        return <AboutPage bundle={bundle} />;
+      case 'skills':
+        return <SkillsPage bundle={bundle} />;
+      case 'experience':
+        return <ExperiencePage bundle={bundle} />;
+      case 'projects':
+        return <ProjectsPage bundle={bundle} />;
+      case 'services':
+        return <ServicesPage bundle={bundle} />;
+      case 'contact':
+        return <ContactPage bundle={bundle} />;
+      default:
+        return <HomePage bundle={bundle} />;
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex flex-col bg-[#FAFAFA] dark:bg-[#050505] text-zinc-900 dark:text-white transition-colors duration-200">
+      <Navbar
+        portfolio={bundle.portfolio}
+        clientName={bundle.client.name}
+        isPreview={isPreview}
+      />
+      <main className="flex-grow">{renderSubpageContent()}</main>
+      <Footer
+        clientName={bundle.client.name}
+        professionalTitle={bundle.settings.professional_title}
+        socialLinks={bundle.social_links}
+      />
+    </div>
+  );
+}
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <RouterProvider>
+        <AuthProvider>
+          <ToastProvider>
+            <AppContent />
+          </ToastProvider>
+        </AuthProvider>
+      </RouterProvider>
+    </ThemeProvider>
+  );
+}
